@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
 				scrollTrigger: {
 					trigger: slider,
 					scrub: true,
-					ease: "none",
-					start: "top top",
+					ease: 'none',
+					start: 'top top',
 					end: 'bottom top'
 				},
 				yPercent: 25
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
 				scrollTrigger: {
 					trigger: slider,
 					scrub: true,
-					ease: "none",
-					start: "top top",
+					ease: 'none',
+					start: 'top top',
 					end: 'bottom top'
 				},
 				opacity: 0.3
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
 				scrollTrigger: {
 					trigger: slider,
 					scrub: true,
-					ease: "none",
-					start: "top top",
+					ease: 'none',
+					start: 'top top',
 					end: 'bottom 20%'
 				},
 				opacity: 0
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			
 			gsap.timeline({repeat: -1, repeatDelay: 2})
 				.to(btnTopBottom, {y: -50,  duration: 0.5})
-				.to(btnTopBottom, {y: 0, duration: 1, ease: "bounce.out" });
+				.to(btnTopBottom, {y: 0, duration: 1, ease: 'bounce.out'});
 					
 		}());
 	}
